@@ -26,7 +26,6 @@ then
     echo -e "\e[32m"dhcp.sh has been changed!" \e[0m"
 fi
 
-# 重启dhcpd服务
 systemctl restart dhcpd
 
 if [ `echo $?` -eq 0 ]
